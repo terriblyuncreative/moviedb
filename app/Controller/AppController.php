@@ -35,7 +35,7 @@ class AppController extends Controller {
   public $helpers = array('Html', 'Form', 'Session');
   public $components = array('Session', 'Auth');
 
-  public function beforeFilter() {
-    $this->Auth->allow('index');
-  }
+//  public function beforeFilter() {
+//    $this->Auth->allow('index');
+//  }
 }

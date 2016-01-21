@@ -8,6 +8,7 @@ App::uses('AppController', 'Controller');
 class UsersController extends AppController {
 
 	public function beforeFilter() {
+		$this->Auth->allow('index');
 		parent::beforeFilter();
 		$this->Auth->allow('add');
 	}

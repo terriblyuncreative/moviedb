@@ -47,6 +47,7 @@ $cakeDescription = __d('cake_dev', 'My Movie Database');
 			<div id="Navigation" class="widthWrapper">
 				<ul>
 					<li><a href="/websites/moviedb/users">Users</a></li>
+					<li><a href="/websites/moviedb/libraries">Libraries</a></li>
 					<?php if(AuthComponent::user()) : ?>
 						<li><a href="/websites/moviedb/users/logout">Log Out</a></li>
 					<?php else : ?>
